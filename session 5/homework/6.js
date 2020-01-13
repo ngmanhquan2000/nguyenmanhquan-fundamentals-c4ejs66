@@ -1,4 +1,8 @@
-let string = ["abc",2,3,4]
-let newstring = string.replace("abc","")
+let string = prompt("Nhâp vào: ")
+
+const remove_dollar_sign = () =>
+{
+    return string.replace("$","")
+}
 console.log(string)
-console.log(newstring)
+console.log(remove_dollar_sign())
