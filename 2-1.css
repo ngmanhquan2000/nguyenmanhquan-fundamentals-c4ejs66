@@ -1,0 +1,17 @@
+.Addbook {
+    width: 100%;
+}
+
+.Book {
+    display: flex;
+}
+
+.Unread {
+    width: 50%;
+    text-align: center;
+}
+
+.Readed {
+    width: 50%;
+    text-align: center;
+}
